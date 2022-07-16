@@ -1,11 +1,9 @@
 import './App.css';
-
+import CommentList from './Components/CommentList';
+ 
 function App() {
   return (
-    <div className="App">
-      hello
-    </div>
+       <CommentList/>
   );
 }
-
 export default App;
