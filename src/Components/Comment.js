@@ -7,11 +7,11 @@ const Comment = (props) => {
    return(
     <div className="Comment">
         <UserInfo author = {props.author}/>
-        <CommentWrapper 
-        text={props.text}
-        date={props.date} 
-         />
-
+        <CommentWrapper>
+          <div className='Comment-text'>{props.text}</div>
+          <div className='Comment-date'>{props.date.toISOString().slice(0,10)}</div>
+        </CommentWrapper> 
+ 
        
     </div>
      ) 

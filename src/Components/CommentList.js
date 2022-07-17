@@ -3,14 +3,15 @@ import Comment from './Comment'
 import './CommentList.css'
 
 //КЛЮЧКА id аркылуу бердим.Id ге счетчик аркылуу.
-let counter = 0;
-const incrementCounter =() => counter++
+
+ let counter = 0;
+ let counterIncrement = () => counter++
 
 function CommentList() {
    return (
       <div className='Comment-List'>
          {comment.map((el) => {
-            el.id = incrementCounter()
+            el.id = counterIncrement()
             return <Comment
                 key={el.id}
                author={el.author}
