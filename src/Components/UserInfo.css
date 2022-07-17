@@ -1,0 +1,14 @@
+.UserInfo{
+    width: 110px;
+    height: 160px;
+    border-radius: 30px;
+    font-size: 25px;
+    text-align: center;
+    background-color: rgb(248, 106, 50);
+    box-shadow: 2px 2px 2px black;
+    padding-top: 10px;
+    margin-bottom: 15px;
+}
+.UserInfo-name{
+    margin-top: 16px;
+}

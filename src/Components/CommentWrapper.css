@@ -1,0 +1,8 @@
+.comment-wrapper{
+    width: 130px;
+    height: 150px;
+    font-size: 21px;
+    background-color: rgb(248, 106, 50);
+    box-shadow: 2px 2px 2px black;
+    text-align: center;
+}
