@@ -1,0 +1,11 @@
+.DataList{
+    width: 600px;
+    height: 100px;
+    border: 1px solid black;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color:slateblue;
+    border-radius: 20px;
+}

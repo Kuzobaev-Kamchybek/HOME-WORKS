@@ -1,0 +1,28 @@
+.form{
+    width: 600px;
+    height: 100px;
+    border:1px solid black;
+    margin:0 auto;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: deepskyblue;
+    border-radius: 20px;
+}
+.form input{
+    width: 250px;
+    height: 30px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+.form button{
+  width: 100px;
+  height: 35px;
+  border-radius: 10px;
+  border: 5px solid rgb(240, 229, 20);
+  margin-left: 10px;
+}
+.form .dateInput{
+    width: 100px;
+    height: 35px;
+}
